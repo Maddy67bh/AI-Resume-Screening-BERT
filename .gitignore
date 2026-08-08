@@ -1,0 +1,11 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.env
+*.log
+.streamlit/secrets.toml
+models/bert_results/
+models/logs/
+"@ | Set-Content .gitignore
